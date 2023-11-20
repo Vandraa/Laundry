@@ -1,0 +1,116 @@
+/* css untuk title dan paket laundry */
+body{
+    background-color: #2C73D2;
+}
+
+
+/* CSS untuk tampilan halaman transaksi */
+.con-boxtran {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.boxtran {
+    background-color: #0081CF;
+    box-shadow: 0px 10px 20px black;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.boxtran h2 {
+    margin-bottom: 10px;
+}
+
+.boxtran label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.boxtran input[type="text"],
+.boxtran input[type="date"],
+.boxtran select {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+.boxtran button {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.boxtran button:hover {
+    background-color: gray;
+}
+
+.outtran {
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.outtran h2 {
+    margin-bottom: 10px;
+}
+
+.outtran label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.outtran input[type="text"],
+.outtran input[type="date"],
+.outtran select {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #030414;
+}
+
+.outtran button {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.outtran button:hover {
+    background-color: #53545d;
+}
+
+.dis-spacebet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/* css untuk footer */
+.footer{
+    display: flex;
+    margin: 10px 20px;
+    padding: 15px;
+    justify-content: center;
+    color: white;
+    background-color: #0081CF;
+    border-radius: 12px;
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+}
+

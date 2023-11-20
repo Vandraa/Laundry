@@ -1,0 +1,74 @@
+body{
+    width: auto;
+}
+
+.nav-item{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.navbar-nav{
+    background-color: gray;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#transaksi{
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logout{
+    float: right;
+    margin-right: 15px;
+}
+
+.nav-item a:hover {
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+h2{
+    margin-left: 30px;
+}
+
+.data{
+    background-color: orange;
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+.col-md-3{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+}
+
+.pilihpaket{
+    width: 100%;
+    margin-top: 0;
+}
+
+.teksdata{
+    margin: 40px;
+    height: 100px;
+}
+
+.footer{
+    padding: 20px 0;
+    background-color: tomato;
+    text-align: center;
+    margin-top: 275px;
+    border-radius: 10px;
+}

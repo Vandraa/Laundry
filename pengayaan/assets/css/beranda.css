@@ -1,0 +1,82 @@
+.image{
+    margin-top: 35px;
+    margin-left: 1%;
+    
+}
+
+.image img{
+    width: 77%;
+    height: 320px;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.daf{
+    margin-left: 3%;
+    margin-top: 20px;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0081CF;
+}
+
+.data-paket{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: auto;
+    background: #0081CF ;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0px 10px 5px aqua;
+    font-size: 20px;
+    font-weight: bold;
+    height: 180px;
+    width: 210px;
+    padding: 40px 20px 0px;
+}
+
+.col-md-3{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+}
+
+.pilihpaket{
+    width: 100%;
+    margin-top: 0;
+}
+
+.teksdata{
+    margin: 20px;
+    height: 100px;
+}
+
+.btn-a{
+    margin-top: 330px;
+    margin-left:auto;
+    width: 100%;
+    padding: 5px;    
+    border-radius: 20px; 
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: gray;
+    transition-duration: 1s;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 450px;
+    width: 94%;
+    clear: both;
+    background: #0081CF;
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px;
+    text-align: center; 
+    margin-left: 1%;
+}
+
